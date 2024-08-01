@@ -1,8 +1,14 @@
 # Curious George Adventure Creator: AI Children's Book Generator
 
-<img src="assets/logo.png" alt="Curious George Adventure Creator Logo" width="200">
+![Curious George Adventure Creator Logo](assets/logo.png)
 
 Welcome to the future of storytelling with the Curious George Adventure Creator! Dive into the playful and adventurous world of Curious George like never before. Our innovative AI model, designed for children and fans of the lovable monkey, brings George's stories to life with just a starting image and a chosen theme.
+
+---
+
+<a href="https://www.youtube.com/watch?v=NOGUQAqq2Xc"><img src="assets/gen.png" width="1080" height="720" alt="Thumbnail"></a>
+
+*Here is a video demo of our App.*
 
 ---
 
@@ -93,7 +99,7 @@ python3 app.py
 
 ## Video Demo
 
-<a href="https://www.youtube.com/watch?v=fICcwtiWK-g"><img src="assets/webapp.png" width="300" height="300" alt="Thumbnail"></a>
+<a href="https://www.youtube.com/watch?v=fICcwtiWK-g"><img src="assets/webapp.png" width="1080" height="720" alt="Thumbnail"></a>
 
 *Here is a video demo of our App.*
 
