@@ -8,7 +8,7 @@ Welcome to the future of storytelling with the Curious George Adventure Creator!
 
 <a href="https://www.youtube.com/watch?v=NOGUQAqq2Xc"><img src="assets/gen.png" width="1080" height="720" alt="Thumbnail"></a>
 
-*Here is a video demo of our App.*
+*Here is a video demo of our Story generated and voice over by our App.*
 
 ---
 
