@@ -1,17 +1,11 @@
+Here is the improved markdown with the logo at the top and the YouTube video moved to the end, along with some cleaning up for clarity:
+
+```markdown
 # Curious George Adventure Creator: AI Children's Book Generator
 
-[alt text](assets/logo.png)
+![Curious George Adventure Creator Logo](assets/logo.png)
 
 Welcome to the future of storytelling with the Curious George Adventure Creator! Dive into the playful and adventurous world of Curious George like never before. Our innovative AI model, designed for children and fans of the lovable monkey, brings George's stories to life with just a starting image and a chosen theme.
-
-
----
-
-## Video Demo
-
-<a href="https://www.youtube.com/watch?v=fICcwtiWK-g"><img src="assets/webapp.png" width="300" height="300" alt="Thumbnail"></a>
-
-*Here is a video demo of our App.*
 
 ---
 
@@ -31,9 +25,9 @@ The Curious George Adventure Creator allows you to craft unique episodes featuri
 
 ## Technical Aspects
 
-### This project is developer using SEED-Story
+### This project is developed using SEED-Story
 
-[Seed-Story](https://github.com/TencentARC/SEED-Story) A Multimodal Large Language Model (MLLM) capable of generating multimodal long stories consisting of rich and coherent narrative texts, along with images that are consistent in characters and style, based on [SEED-X](https://github.com/AILab-CVC/SEED-X). 
+[Seed-Story](https://github.com/TencentARC/SEED-Story) is a Multimodal Large Language Model (MLLM) capable of generating multimodal long stories consisting of rich and coherent narrative texts, along with images that are consistent in characters and style, based on [SEED-X](https://github.com/AILab-CVC/SEED-X). 
 
 ### How It Works
 
@@ -65,13 +59,12 @@ pip install --ignore-installed blinker
 pip install -r requirements.txt
 ```
 
-
 ### Model Weights
 
 ```bash
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
 apt-get install git-lfs
-%cd SEED-Story
+cd SEED-Story
 mkdir pretrained
 cd pretrained
 git clone https://huggingface.co/Qwen/Qwen-VL-Chat
@@ -81,6 +74,8 @@ git clone https://krishnavadithya:<hf_token>@huggingface.co/meta-llama/Llama-2-7
 cd ..
 touch .project-root
 ```
+
+Run the following script to reload the model:
 
 ```bash
 python3 src/tools/reload_qwen_vit.py
@@ -96,8 +91,17 @@ Ready to embark on an adventure with Curious George?
 python3 app.py
 ```
 
+---
 
-### Based on: 
+## Video Demo
+
+<a href="https://www.youtube.com/watch?v=fICcwtiWK-g"><img src="assets/webapp.png" width="300" height="300" alt="Thumbnail"></a>
+
+*Here is a video demo of our App.*
+
+---
+
+### Based on:
 
 ```bash
 @article{yang2024seedstory,
