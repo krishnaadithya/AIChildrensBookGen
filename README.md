@@ -1,6 +1,3 @@
-Here is the improved markdown with the logo at the top and the YouTube video moved to the end, along with some cleaning up for clarity:
-
-```markdown
 # Curious George Adventure Creator: AI Children's Book Generator
 
 ![Curious George Adventure Creator Logo](assets/logo.png)
