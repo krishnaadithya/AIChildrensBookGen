@@ -70,8 +70,7 @@ pip install -r requirements.txt
 ```bash
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
 apt-get install git-lfs
-cd SEED-Story
-mkdir pretrained
+#cd AIChildrensBookGen
 cd pretrained
 git clone https://huggingface.co/Qwen/Qwen-VL-Chat
 git clone https://huggingface.co/TencentARC/SEED-Story .
