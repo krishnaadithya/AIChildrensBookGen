@@ -57,6 +57,8 @@ Given the same initial image but different opening texts, SEED-Story can generat
 Clone the repo and install dependent packages:
 
 ```bash
+sudo apt-get update
+sudo apt-get upgrade
 git clone https://github.com/
 cd SEED-Story
 pip install --ignore-installed blinker
