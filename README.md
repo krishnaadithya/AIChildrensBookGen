@@ -59,8 +59,8 @@ Clone the repo and install dependent packages:
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
-git clone https://github.com/
-cd SEED-Story
+git clone https://github.com/krishnaadithya/AIChildrensBookGen.git
+cd AIChildrensBookGen
 pip install --ignore-installed blinker
 pip install -r requirements.txt
 ```
