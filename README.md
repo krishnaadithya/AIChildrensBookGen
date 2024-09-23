@@ -74,7 +74,7 @@ apt-get install git-lfs
 cd pretrained
 git clone https://huggingface.co/Qwen/Qwen-VL-Chat
 git clone https://huggingface.co/TencentARC/SEED-Story
-mv SEED-Story ./
+mv SEED-Story/* ./
 git clone https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0
 git clone https://krishnavadithya:<hf_token>@huggingface.co/meta-llama/Llama-2-7b-hf
 cd ..
