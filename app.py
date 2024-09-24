@@ -19,7 +19,7 @@ import gradio as gr
 import edge_tts
 import asyncio
 import tempfile
-from TTS.api import TTS
+#from TTS.api import TTS
 import numpy as np 
 
 import sys
@@ -102,7 +102,7 @@ print('Init adapter pipe done')
 boi_token_id = tokenizer.encode(BOI_TOKEN, add_special_tokens=False)[0]
 eoi_token_id = tokenizer.encode(EOI_TOKEN, add_special_tokens=False)[0]
 
-tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
+#tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
 
 os.makedirs("tmp/", exist_ok = True)
 
