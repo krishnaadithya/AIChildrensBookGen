@@ -52,7 +52,7 @@ typing_extensions==4.8.0
 wandb==0.16.4
 Werkzeug==3.0.1
 wheel==0.41.2
-xformers==0.0.23.post1
+#xformers==0.0.23.post1
 zipp==3.18.1
 pyrootutils
 torchdata
