@@ -63,6 +63,10 @@ git clone https://github.com/krishnaadithya/AIChildrensBookGen.git
 cd AIChildrensBookGen
 pip install --ignore-installed blinker
 pip install -r requirements.txt
+#AMD installation
+pip install -U xformers --index-url https://download.pytorch.org/whl/rocm6.1
+#NVIDIA installation
+pip install xformers==0.0.23.post1
 ```
 
 ### Model Weights
