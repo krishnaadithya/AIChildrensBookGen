@@ -98,7 +98,7 @@ Experience the magic of Curious George's world like never before. Start creating
 Ready to embark on an adventure with Curious George?
 
 ```bash
-python3 app.py
+python app.py
 ```
 
 ---
